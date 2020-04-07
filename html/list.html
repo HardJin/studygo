@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List</title>
+</head>
+<body>
+<table>
+    <tr><td>ID</td><td>Cityid</td><td>name</td><td>操作</td></tr>
+    {{range $index, $city := .}}
+        <tr><td>{{$city}}</td><td></td><td></td><td>操作</td></tr>
+    {{end}}
+</table>
+</body>
+</html>
